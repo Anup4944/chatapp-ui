@@ -5,7 +5,7 @@ import socketIo from "socket.io-client";
 import Message from "../message/Message";
 import ReactScrollToBottom from "react-scroll-to-bottom";
 
-const ENDPOINT = "http://localhost:4000";
+const ENDPOINT = "https://backendchatapp.onrender.com/";
 
 let socket;
 
